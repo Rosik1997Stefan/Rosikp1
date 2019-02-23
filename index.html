@@ -5,35 +5,533 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css" type="text/css">
-	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<title>Games</title>
 </head>
 <body>
-	<nav class="navbar navbar-fixed-top navYellow">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<div id="mySidenav" class="sidenav">
-					<img class="sidenavLogo" src="images/logo.png" alt="" class="img-responsive">
-					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-					<a class="bor" href="#">About</a>
-					<a class="bor" href="#">Services</a>
-					<a class="bor" href="#">Clients</a>
-					<a class="bor" href="#">Contact</a>
+	<div class="mynav">
+		<div class="Meni flexMeni">
+			<span class="navbar-brand yellowText" data-toggle="modal" data-target="#myModal">&#9776; Мени</span>
+		</div>
+		<div class="LOGO flexIMG">
+			<a href="index.html"><img src="images/logo.png" alt="Picture of Company Logo"></a>
+		</div>
+		<div class="Buttons flexbtn">
+			<a href="https://www.brainster.io/business" target="_blank" class="yLink">Обуки за компании</a>
+			<a href="https://www.brainster.io/business" target="_blank" class="bLink">Вработи наши студенти</a>
+		</div>
+	</div>
+	<div class="container-fluid kText">
+		<div class="row padtop firstbg patop">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center whiteText firstText">
+				Изработено од студентите на академијата за програмирање на <a href="https://brainster.co/" class="yellowLink" target="_blank">Brainster</a>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center pdtp4 buttons2 hidden-lg hidden-md">
+				<a href="#" class="yLink yLink2">Обуки за компании</a>
+				<a href="#" class="bLink bLink2">Вработи наши студенти</a>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center pdbt2  pdtp2 whiteText">
+				<h1 class="text-uppercase textBold topText ">Future-proof your organization</h1>
+				<p class="textWhite pdbt ">Find out how to unlock progress in your business. Understand your current state, identify<br> opportunity areas and prepare to take charge of your organization's future.</p>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center pdtp ass">
+				<a href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank" class="textBold yLink yLink3">Take the assessment</a>
+			</div>
+			<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 pdtp5">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+						<a href="SinglePage1.html"><div class="card">
+							<div class="cardtop">
+								<img src="images/1.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Dotmocracy</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Акција</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/1.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">5-30минути</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/2.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/2.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/3.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/3.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 pdtp">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/4.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/4.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/5.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/5.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/6.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/6.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdtp2">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/7.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/7.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/8.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/8.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/9.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/9.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdtp2">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/10.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/10.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card ">
+							<div class="cardtop">
+								<img src="images/11.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/11.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/12.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/12.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdtp2">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/13.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/13.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/14.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/14.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/15.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/15.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row secoundBG pdtp">
+			<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-sm-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/16.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/16.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-sm-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/17.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/17.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-sm-12">
+						<div class="card">
+							<div class="cardtop">
+								<img src="images/18.png" alt="" class="img-responsive">
+							</div>
+							<div class="bottom">
+								<div class="miniFlex1">
+									<div class="mrgRight">
+										<h5 class="textBold textBlack">Наслов на игра</h5>
+										<p class="textBlack">Категорија: <span class="aquaText textBold">Иновации</span></p>
+									</div>
+									<div class="miniLogo">
+										<img src="images/18.png" alt="" class="img-responsive img-circle pull-right">
+									</div>
+								</div>
+								<div class="padLeft pdtp2 pdtp2bot miniFlex">
+									<i class="far fa-clock"></i>
+									<p class="textBold textBlack">Времетраење<br><span class="text-muted">3h20min</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center pdtp4 yLink3Bot lastpad whiteText">
+						<h1 class="text-uppercase textBold bottomText">Future-proof your organization</h1>
+						<p class="textWhite textbotPad">Find out how to unlock progress in your business. Understand your current state, identify<br> opportunity areas and prepare to take charge of your organization's future.</p>
+						<a href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank" class="yLink textBold">Take the assessment</a>
+			</div>	
+		</div>
+		<div class="row footer">
+			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 Footer">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center text-right hidden-lg hidden-md hidden-sm">
+						<ul class="list-unstyled list-inline socialLinks bottomLinks">
+							<li><a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a href="https://twitter.com/BrainsterCo" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/brainster.co" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center lastLeftLinks">
+						<ul class="list-unstyled list-inline bottomLinks bottomLinksMiddle">
+							<li><a href="aboutus.html" target="_blank">За нас</a></li>
+							<li><a href="contact.html" target="_blank">Контакт</a></li>
+							<li><a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank">Галерија</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hidden-xs imgBottom text-center">
+						<img src="images/logo.png" alt="">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center hidden-xs">
+						<ul class="list-unstyled list-inline socialLinks bottomLinks">
+							<li><a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a href="https://twitter.com/BrainsterCo" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/brainster.co" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hidden-lg hidden-md hidden-sm imgBottom text-center">
+						<img src="images/logo.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<img src="images/logo.png" alt="" class="img-responsive imgModal">
 				</div>
 
-				<span class="navbar-brand yellowText" onclick="openNav()">&#9776; Мени</span>
+				<div class="modal-body links">
+					<ul class="list-unstyled">
+						<li><a href="registerForm.html" target="_blank">
+							Регистрирај се
+						</a></li>
+						<li><a href="login.html" target="_blank">
+							Најави се
+						</a></li>
+						<li><a href="aboutus.html" target="_blank">
+							За нас
+						</a></li>
+						<li><a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank">
+							Галерија
+						</a></li>
+						<li><a href="contact.html" target="_blank">
+							Контакт
+						</a></li>
+					</ul>
+				</div>
+
 			</div>
-			<ul class="nav navbar-nav">
-				<li>
-					<img src="images/logo.png" alt="" class="img-responsive">
-				</li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right ulWidth">
-				<li><a class="yLink" href="#">Обуки за компании</a></li>
-				<li><a class="bLink" href="#">Вработи наши студенти</a></li>
-			</ul>
 		</div>
-	</nav>
+	</div>
+
+	
 	
 	
 	
@@ -47,6 +545,5 @@
 	src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous">
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="main.js"></script>
 </body>
 </html>
