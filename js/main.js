@@ -9,3 +9,6 @@ window.addEventListener('scroll', function() {
 		document.querySelector('.singleBTN').classList.add('singlePageLink2');
     }
 });
+window.onbeforeunload = function () {
+ window.scrollTo(0, 0);
+}

@@ -56,65 +56,14 @@ body {
   margin-right: 3%;
 }
 .contactBG{
-  background: #242b3d;
+  background-image: -webkit-linear-gradient(-35deg,rgb(239, 212, 0)  50.9%, #242b3d 51%);
   margin-top: 52px;
   height: 100vh;
 }
 
-.form-style-4 {
-    background: #242b3d;
-    padding: 30px 30px;
-    font-weight: bold;
-}
-.form-style-4 .fl-input-group input,
-.form-style-4 .fl-input-group textarea {
-    border-radius: 3px;
-    padding: 15px 12px;
-    height: auto;
-    border-top: 1px solid #222;
-    border-left: 1px solid #222;
-    border-right: 1px solid #666;
-    border-bottom: 1px solid #666;
-    background-color: #2d3343;
-    margin-bottom: 10px;
-    font-size: 15px;
-    color: #fff;
-
-}
-.form-style-4 .fl-input-group input:focus,
-.form-style-4 .fl-input-group textarea:focus {
-    border: 2px solid rgb(239, 212, 0);
-    background-color: #2d3343;
-}
-
-.form-style-4 .fl-input-group input::-webkit-input-placeholder {
-    color: #fff;
-    text-transform: uppercase;
-}
-.form-style-4 .fl-input-group textarea::-webkit-input-placeholder {
-    color: #fff;
-    text-transform: uppercase;
-}
 textarea{
   resize: none;
 }
-.form-style-4 .fl-input-group {
-    margin-bottom: 20px;
-}
-.form-style-4 label {
-    display: none;
-}
-.btnContact{
-  padding: 2% 3%;
-  background-color: rgb(239, 212, 0);
-  border: none;
-  color: white;
-}
-.btnContact:hover{
-  background-color: white;
-  color: black;
-}
-
 .flexbtn{
   display: flex;
   justify-content: center;
@@ -306,12 +255,14 @@ box-shadow: 5px 4px 15px 7px rgba(0,0,0,0.75);
   display: flex;
 }
 .miniLogo{
-  width: 49%;
+  width: 20%;
+}
+.miniFlex i {
+  color: black;
 }
 .miniLogo img{
-  width: 35%;
+  width: 100%;
   background-color: black;
-  padding: 3%;
 }
 .secoundBG{
   background-image: linear-gradient(-10deg,rgb(67, 23, 129)63.8%, rgb(255, 255, 255) 64%);
@@ -341,6 +292,12 @@ box-shadow: 5px 4px 15px 7px rgba(0,0,0,0.75);
   font-size: 100px;
   padding-top: 7%;
   color: #4380E4;
+}
+.size .secoundPage{
+  font-size: 70px;
+}
+.italic{
+  font-style: italic;
 }
 .dFlex{
   display: flex;
@@ -450,6 +407,7 @@ select{
   margin-left: 2%;
 }
 
+
 .animated{
   animation-duration: 0.8s;
   margin-top: 3%;
@@ -478,9 +436,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 .padtopRegister{
   padding-top: 64px;
-}
-.form h1{
-  font-family: arial;
 }
 textarea{
   padding: 1%;
@@ -521,7 +476,6 @@ input[type="email"].big-dog::-webkit-input-placeholder {
 }
 .aboutUs2Rgba{
   height: 100%;
-  font-family: "Ubuntu", sans-serif;
 }
 .aboutUs2Rgba h1{
   font-size: 50px;
@@ -559,7 +513,7 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   padding-top: 75px;
 }
 .pdtpSingle{
-  padding-top: 15%;
+  padding-top: 8%;
 }
 .footerAboutUs{
   background-color: transparent;
@@ -571,36 +525,26 @@ input[type="email"].big-dog::-webkit-input-placeholder {
 .padtopAboutUs{
   padding-top: 55px;
 }
-@-webkit-keyframes zoomIn {
-  from {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-
-  50% {
-    opacity: 1;
-  }
+.contactForm input,.contactForm .contactArea{
+  padding: 4%;
+  padding-left: 3%;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
 }
-
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-
-  50% {
-    opacity: 1;
-  }
+.form-group .contactArea{
+  margin-left: 0;
+  padding-top: 1%;
 }
+.btnContact{
+  border-radius: 0;
 
-.zoomIn {
-  -webkit-animation-name: zoomIn;
-  animation-name: zoomIn;
+}
+.btnContact:hover{
+  font-weight: bold;
 }
 .pdtpRegister{
-  padding-top: 2%;
+  padding-top: 4%;
 }
 .bgLogin{
   background-color: #242b3d;
@@ -745,7 +689,20 @@ input[type="email"].big-dog::-webkit-input-placeholder {
 .aboutUs2Rgba h1{
   margin-top: 0;
 }
+.mrgRight{
+  width: 75%;
+}
+.dashed li:before{
+  content: "-";
+  text-indent: -5px;
+}
 @media screen and (max-width: 2560px){
+  .contactTextSize{
+    font-size: 25px;
+  }
+  .size .secoundPage{
+    font-size: 115px;
+  }
   .pdtpRegister{
     padding-top: 5%;
   }
@@ -780,10 +737,27 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .size h2{
     font-size: 150px;
   }
+  .pdtpRegister input,textarea{
+    outline: none;
+    box-shadow: none;
+  }
+  .size .twelvePage{
+    font-size: 120px;
+    margin-top: 10%;
+  }
 }
 @media screen and (max-width: 2000px){
+  .size .twelvePage{
+    font-size: 74px;
+  }
+  .size .secoundPage{
+    font-size: 70px;
+  }
+  .contactTextSize{
+    font-size: 14px;
+  }
   .pdtpRegister{
-    padding-top: 3%;
+    padding-top: 5%;
   }
   .size h2{
     font-size: 100px;
@@ -820,8 +794,23 @@ input[type="email"].big-dog::-webkit-input-placeholder {
     line-height: 22px;
     font-size: 14px;
   }
+  .item > span{
+   font-size: 13px;
+  }
+  .size .ninePage{
+    font-size: 88px;
+  }
 }
 @media screen and (max-width: 1440px){
+  .size .twelvePage{
+    font-size: 69px;
+  }
+  .size .elevenPage{
+    font-size: 60px;
+  }
+  .size .tenPage{
+    font-size: 85px;
+  }
   .animated{
   margin-top: 0;
   }
@@ -829,19 +818,49 @@ input[type="email"].big-dog::-webkit-input-placeholder {
     padding-top: 0;
     padding-bottom: 2%;
   }
-  .form-style-4{
-    padding-top: 50px;
-  }
   .loginText{
     font-size: 10px;
   }
+  .size .fifthPage{
+    font-size: 95px;
+  }
+  .contactForm{
+    padding-top: 4%;
+  }
+  .size .ninePage{
+    font-size: 80px;
+  }
 }
 @media screen and (max-width: 1024px){
+  .size .twelvePage{
+    font-size: 65px;
+    margin-top: 8%;
+  }
+  .size .elevenPage{
+    font-size: 45px;
+    margin-top: 12%;
+  }
+  .size .tenPage{
+    font-size: 60px;
+  }
+  .size .ninePage{
+    font-size: 60px;
+  }
+  .registerBG{
+    padding-bottom: 3%;
+    margin-top: 3%;
+  }
+  .size .fifthPage{
+    font-size: 66px;
+  }
   .padtopSingle{
     padding-top: 55px;
   }
   .aboutUs2Bg{
     height: auto;
+  }
+  .mrgRight p {
+    font-size: 11px;
   }
   .kTextL{
     font-size: 12px;
@@ -853,7 +872,7 @@ input[type="email"].big-dog::-webkit-input-placeholder {
     width: 35%;
   }
   .singlePageBG img{
-    width: 100%;
+    width: 90%;
   }
   .h3width{
     font-size: 25px;
@@ -886,11 +905,64 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .formWrap{
     width: 46%;
   }
+  .contactBG{
+    background-image: -webkit-linear-gradient(-35deg,rgb(239, 212, 0)  46.9%, #242b3d 47%);
+  }
+  .size .secoundPage{
+  font-size: 60px;
+  }
+  .pdtpSingle{
+    padding-top: 13%;
+  }
+  .item > span{
+   font-size: 10px;
+  }
+  .size .fourthPage{
+  font-size: 70px;
+  }
+  .bottom{
+    height: 20vh;
+  }
+  .size .eightPage{
+    font-size: 70px;
+  }
 }
 /* -----Media------ */
 @media screen and (max-width: 768px){
-  .form-style-4{
-    padding-top: 40px;
+  .size .twelvePage{
+    font-size: 60px;
+    margin-top: 8%;
+  }
+  .size .elevenPage{
+    font-size: 39px;
+  }
+   .size .tenPage{
+    font-size: 52px;
+  }
+  .size .ninePage{
+    font-size: 50px;
+  }
+  .size .eightPage{
+    font-size: 57px;
+  }
+  .contactForm{
+    padding-top: 0%;
+  }
+  .registerBG{
+    margin-top: 0;
+  }
+  .mrgRight p {
+    font-size: 13px;
+  }
+  .size .fourthPage{
+  font-size: 60px;
+}
+  .item > span{
+   font-size: 14px;
+  }
+  .contactBG{
+    background-image: none;
+    background-color: #242b3d;
   }
   .formWrap {
     width: 70%;
@@ -926,7 +998,7 @@ input[type="email"].big-dog::-webkit-input-placeholder {
     padding-top: 0%;
   }
   .buttons2{
-    margin-bottom: 2%;
+    margin-bottom: 5%;
   }
   .buttons2Login{
     margin-top: 8%;
@@ -940,9 +1012,6 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .secoundBG{
     height: 86vh; 
   }
-  .miniLogo {
-    width: 65%;
-  }
   .padtopSingle{
     padding-top: 53px;
   }
@@ -951,8 +1020,12 @@ input[type="email"].big-dog::-webkit-input-placeholder {
     margin-top: 10%;
     font-size: 65px;
   }
+  .size .secoundPage{
+  font-size: 50px;
+  margin-top: 0;
+  }
   .singlePageBG img{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
   .singlePB{
@@ -991,13 +1064,48 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .registerBG{
     background-image: none;
     background-color: #242b3d;
+    padding-bottom: 10%;
   }
   .registerbLink2{
     border: 1px solid white;
   }
+  .bottom{
+    height: 20vh;
+  }
+  .dFlex{
+    flex-direction: column;
+  }
+  .item{
+        align-items: flex-start;
+        width: 90%;
+        margin-left: 3%;
+  }
+  .item > span{
+    margin-left: 5%;
+  }
+  .buttons2Contact{
+    margin-bottom: 10%;
+  }
 }
 @media screen and (max-width: 425px){
-
+  .phoneSizeText{
+    font-size: 25px;
+  }
+  .dFlexLogin{
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .mrgRight p {
+    font-size: 14px;
+  }
+  .contactForm input,.contactForm .contactArea{
+    padding: 6%;
+    padding-left: 2%;
+  }
+  .contactForm .contactArea{
+    padding-top: 1%;
+    padding-left: 2%;
+  }
   .yellowText {
     font-size: 20px;
   }
@@ -1157,6 +1265,9 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   
 }
 @media screen and (max-width: 375px){
+  .phoneSizeText{
+    font-size: 22px;
+  }
   .yellowText {
     font-size: 16px;
   }
@@ -1192,6 +1303,9 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .downButton {
     margin-bottom: 15%;
     margin-top: 10%;
+  }
+  .item > span{
+   font-size: 11px;
   }
 
 }
