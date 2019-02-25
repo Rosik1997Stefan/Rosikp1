@@ -50,10 +50,10 @@ body {
   cursor:pointer;
 }
 .Buttons>a{
-  padding: 1.5% 2%;
+  padding: 1.5% 1.5%;
 }
 .Buttons>a:nth-child(1){
-  margin-right: 2%;
+  margin-right: 4%;
 }
 .contactBG{
   background-image: -webkit-linear-gradient(-35deg,rgb(239, 212, 0)  50.9%, #242b3d 51%);
