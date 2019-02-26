@@ -440,8 +440,9 @@ textarea{
 }
 .form-group button{
   background-color: rgba(239, 212, 0, 0.9);
-  color: white;
+  color: black;
   margin-left: 2%;
+  font-weight: 500;
 }
 .form-group button:hover{
   background-color: white;
@@ -536,7 +537,6 @@ input[type="email"].big-dog::-webkit-input-placeholder {
 }
 .btnContact{
   border-radius: 0;
-
 }
 .btnContact:hover{
   font-weight: bold;
@@ -698,12 +698,16 @@ input[type="email"].big-dog::-webkit-input-placeholder {
 .registerBTN{
   margin-top: 3%;
 }
+.registerBTN:hover{
+  font-weight: bold;
+}
 .pdtp3Single{
-  padding-bottom: 8%;
+  padding-bottom: 9%;
 }
 .downPar{
   padding-top: 0;
 }
+
 @media screen and (max-width: 2560px){
   .aboutUs2Rgba p{
     font-size: 27px;
@@ -768,6 +772,15 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .size .twelvePage{
     font-size: 120px;
     margin-top: 10%;
+  }
+  .size .fourtheenPage{
+    font-size: 145px;
+  }
+  .size .fiftheenPage{
+    font-size: 130px;
+  }
+  .size .elevenPage{
+    font-size: 120px;
   }
 }
 @media screen and (max-width: 2000px){
@@ -841,13 +854,22 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .size .ninePage{
     font-size: 88px;
   }
+  .size .fourtheenPage{
+    font-size: 93px;
+  }
+  .size .fiftheenPage{
+    font-size: 80px;
+  }
+  .size .elevenPage{
+    font-size: 70px;
+  }
 }
 @media screen and (max-width: 1440px){
   .size .twelvePage{
     font-size: 69px;
   }
   .size .elevenPage{
-    font-size: 60px;
+    font-size: 65px;
   }
   .size .tenPage{
     font-size: 85px;
@@ -871,8 +893,12 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .size .ninePage{
     font-size: 80px;
   }
+  .size .fiftheenPage{
+    font-size: 73px;
+  }
 }
 @media screen and (max-width: 1024px){
+  
   .size .twelvePage{
     font-size: 65px;
     margin-top: 8%;
@@ -880,6 +906,10 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .size .elevenPage{
     font-size: 45px;
     margin-top: 12%;
+  }
+  .size .thirteenPage{
+    font-size: 65px;
+    margin-top: 0; 
   }
   .size .tenPage{
     font-size: 60px;
@@ -963,9 +993,13 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .miniLogo{
     width: 17%;
   }
+  .size .fiftheenPage{
+    font-size: 78px;
+  }
 }
 /* -----Media------ */
 @media screen and (max-width: 768px){
+
   .size .thirdPage{
     margin-top: 0;
   }
@@ -984,9 +1018,15 @@ input[type="email"].big-dog::-webkit-input-placeholder {
     font-size: 39px;
     margin-top: 3%;
   }
+  .size .thirteenPage{
+    font-size: 55px;
+  }
    .size .tenPage{
     font-size: 52px;
     margin-top: 3%;
+  }
+  .size .fiftheenPage{
+    font-size: 65px;
   }
   .size .ninePage{
     font-size: 50px;
@@ -1140,8 +1180,14 @@ input[type="email"].big-dog::-webkit-input-placeholder {
     margin-bottom: 2%;
     margin-top: 2%;
   }
+  .pdtpsinglefiftheen{
+    padding-top: 0;
+  }
 }
 @media screen and (max-width: 425px){
+  .headPhone{
+    font-size: 23px;
+  }
   .aboutUs2Rgba h5{
     margin-bottom: 5%;
     margin-top: 2%;
@@ -1284,9 +1330,6 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .downButton{
     margin-top: 7%;
     margin-bottom: 5%;
-  }
-  .modal.left .modal-dialog{
-    width: 250px;
   }
   .h3width{
     font-size: 17px;
