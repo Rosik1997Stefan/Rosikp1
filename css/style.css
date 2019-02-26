@@ -705,6 +705,19 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   padding-top: 0;
 }
 @media screen and (max-width: 2560px){
+  .aboutUs2Rgba p{
+    font-size: 27px;
+    line-height: 40px;
+  }
+  .aboutUs2Rgba h5{
+    font-size: 30px;
+  }
+  .aboutUs2Rgba h3{
+    font-size: 50px;
+  }
+  .aboutUs2Rgba h1{
+    font-size: 80px;
+  }
   .downText{
     font-size: 70px;
   }
@@ -758,6 +771,20 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   }
 }
 @media screen and (max-width: 2000px){
+  .aboutUs2Rgba h5{
+    font-size: 18px;
+  }
+  .aboutUs2Rgba h3{
+    font-size: 23px;
+  }
+  .aboutUs2Rgba h1{
+    font-size: 50px;
+  }
+  .aboutUs2Rgba p{
+    font-size: 16px;
+    line-height: 27px;
+  }
+
   .downText{
     font-size: 35px;
   }
@@ -1109,8 +1136,16 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .mrgRight h5{
     font-size: 12px;
   }
+  .aboutUs2Rgba h5{
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
 }
 @media screen and (max-width: 425px){
+  .aboutUs2Rgba h5{
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
   .phoneSizeText{
     font-size: 25px;
   }
