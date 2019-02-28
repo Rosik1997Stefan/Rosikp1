@@ -1244,6 +1244,9 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   }
 }
 @media screen and (max-width: 425px){
+  .studenti{
+    font-size: 10px;
+  }
   .headPhone{
     font-size: 23px;
   }
@@ -1468,5 +1471,8 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   }
   .modal.left .modal-dialog{
     width: 250px;
+  }
+  .studenti{
+    font-size: 8px;
   }
 }
