@@ -727,7 +727,20 @@ input[type="email"].big-dog::-webkit-input-placeholder {
     text-decoration: none;
 }
 
+
 @media screen and (max-width: 2560px){
+  .registerBTN{
+    font-size: 35px;
+  }
+  .registerSize{
+    font-size: 30px;
+  }
+  .registerSize input, .registerSize textarea, .registerSize select{
+    font-size: 20px;
+  }
+  .registerSize input{
+    padding: 3%;
+  }
   .aboutUs2Rgba p{
     font-size: 27px;
     line-height: 40px;
@@ -811,8 +824,21 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .size .eighteenPage{
     font-size: 120px;
   }
+  .btnContact{
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 2000px){
+  .registerBTN{
+    font-size: 15px;
+  }
+  .registerSize{
+    font-size: 13px;
+  }
+  .registerSize input, .registerSize textarea, .registerSize select{
+    font-size: 13px;
+  }
+  
   .Buttons > a{
     padding: 1.4% 1.4%;
     font-size: 12px;
@@ -905,6 +931,9 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .size .eighteenPage{
     font-size: 70px;
   }
+  .btnContact{
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 1440px){
   .size .twelvePage{
@@ -943,7 +972,9 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   }
 }
 @media screen and (max-width: 1024px){
-  
+  .registerSize textarea{
+    height: 20vh;
+  }
   .size .twelvePage{
     font-size: 65px;
     margin-top: 8%;
@@ -1244,6 +1275,9 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   }
 }
 @media screen and (max-width: 425px){
+  .padtoponPhone{
+    padding-top: 5%;
+  }
   .studenti{
     font-size: 10px;
   }
@@ -1421,6 +1455,9 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   .secoundBG2{
     background-image: linear-gradient(-10deg,rgb(67, 23, 129)69.8%, rgb(255, 255, 255) 70%);
   }
+  .form-group .registerTextArea{
+    height: 20vh;
+  }
   
 }
 @media screen and (max-width: 375px){
@@ -1445,6 +1482,9 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   }
   .sixteen .headPhone{
     font-size: 20px;
+  }
+  .form-group .registerTextArea{
+    height: 25vh;
   }
 }
 @media screen and (max-width: 320px){
@@ -1473,6 +1513,9 @@ input[type="email"].big-dog::-webkit-input-placeholder {
     width: 250px;
   }
   .studenti{
-    font-size: 8px;
+  font-size: 8px;
+  }
+  .form-group .registerTextArea{
+    height: 30vh;
   }
 }
