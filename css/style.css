@@ -1275,6 +1275,10 @@ input[type="email"].big-dog::-webkit-input-placeholder {
   }
 }
 @media screen and (max-width: 425px){
+	.miniFlex{
+    padding-bottom: 0;
+    margin-top: 2%;
+  	}
   .padtoponPhone{
     padding-top: 5%;
   }
